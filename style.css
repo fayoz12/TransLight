@@ -1,0 +1,736 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-image: url("./img/Phone.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.nav_wrapper {
+  width: 1920px;
+  height: 800px;
+
+  margin: auto;
+  /* Rectangle */
+}
+
+.navbar_logo {
+  padding: 50px 50px;
+}
+
+.nav_links {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  /* О компании */
+
+  width: 375px;
+  height: 31px;
+  /* p.top-menu */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* white */
+  color: #ffffff;
+}
+
+.links_box {
+  display: flex;
+  gap: 50px;
+  width: 600px;
+  height: 19px;
+  margin-left: 450px;
+}
+
+.nav_title {
+  margin: auto;
+  /* Светотехническое оборудование в Петербурге */
+  width: 635px;
+  height: 142px;
+  /* h1 */
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: 0.01em;
+
+  color: #ffffff;
+}
+
+.nav_text {
+  /* Продажа, аренда светотехнического оборудования. Оформление официальных мероприятий под ключ. */
+  margin-left: 650px;
+  margin-top: 50px;
+  width: 445px;
+  height: 44px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.nav_btn {
+  width: 160px;
+  height: 51px;
+
+  border: 1px solid #ffffff;
+
+  margin: 100px;
+  font-weight: 900;
+  margin-left: 650px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.05em;
+  background-color: inherit;
+
+  color: #ffffff;
+}
+
+.main_wrapper {
+  width: 1110px;
+  height: 520px;
+  margin: 150px auto;
+}
+
+.main_left {
+  background-image: url("./img/Rectangle\ 4.png");
+  margin-top: 25px;
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 540px;
+  height: 400px;
+}
+
+.main_box {
+  display: flex;
+  margin-top: 31px;
+  justify-content: space-between;
+}
+
+.main_right {
+  background-image: url("./img/Rectangle\ 4\ \(1\).png");
+  margin-top: 25px;
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 540px;
+  height: 400px;
+}
+
+.main_title {
+  /* Наши проекты */
+  margin-left: px;
+  /* h2 */
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* black */
+  color: #343434;
+}
+
+.main_left_box {
+  width: 250px;
+  height: 110px;
+  margin-top: 255px;
+  margin-left: 255px;
+  background: #ffffff;
+}
+
+.box_title {
+  /* ССК “ОЛИМП” */
+
+  padding: 15px 15px;
+  /* h4 */
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* black */
+  color: #343434;
+}
+.box_text {
+  /* Световое оформление форума “Шубы-2019” */
+
+  padding: 5px 15px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  /* black */
+  color: #343434;
+}
+
+.head_wrapper {
+  width: 1110px;
+  height: 505px;
+  margin: 200px auto;
+}
+
+.gf2 {
+  width: 350px;
+  height: 300px;
+}
+
+.head_glav_box {
+  display: flex;
+  gap: 15px;
+  margin-top: 90px;
+}
+.head_right {
+  display: flex;
+  gap: 15px;
+}
+.head_title {
+  /* Каталог продукции */
+
+  /* h2 */
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* black */
+  color: #343434;
+}
+
+.page_box {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-left: 430px;
+  margin-top: 30px;
+}
+.head_page {
+  /* Robe */
+
+  /* h3 */
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* Accent */
+  color: #005bc1;
+}
+
+.head_page2 {
+  /* Compulite */
+
+  /* h3 */
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* black */
+  color: #343434;
+}
+
+.img_box {
+  background-image: url("./img/Rectangle\ 4\ \(2\).png");
+  width: 350px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.img_box1 {
+  background-image: url("./img/Rectangle\ 4\ \(3\).png");
+  width: 350px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.img_box2 {
+  background-image: url("./img/Rectangle\ 4\ \(4\).png");
+  width: 350px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.head_mini_text_box {
+  /* Rectangle 6 */
+
+  position: absolute;
+  width: 265px;
+  height: 86px;
+  margin-top: 199px;
+  margin-left: 85px;
+  /* Accent */
+  background: #005bc1;
+
+  /* Статичные светодиодные приборы */
+
+  padding: 5px 5px;
+  /* h4 */
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* white */
+  color: #ffffff;
+}
+.head_mini_text_box1 {
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+  width: 265px;
+  height: 86px;
+  margin-top: 199px;
+  margin-left: 85px;
+
+  background: #005bc1;
+
+  padding: px 5px;
+  /* h4 */
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* white */
+  color: #ffffff;
+}
+
+.head_mini_text_box2 {
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+  width: 265px;
+  height: 86px;
+  margin-top: 199px;
+  margin-left: 85px;
+
+  background: #005bc1;
+
+  padding: px 5px;
+  /* h4 */
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* white */
+  color: #ffffff;
+}
+
+.footer_wrapper {
+  width: 1110px;
+  height: 478px;
+  margin: 200px auto;
+}
+.footer_title {
+  /* Аренда оборудования */
+
+  /* h2 */
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* black */
+  color: #343434;
+}
+
+.footer_glav_box {
+  display: flex;
+}
+
+.footer_text {
+  /* Мы занимаемся прокатом светового и сценического оборудования ведущих мировых производителей, таких как Robe, SGM, StudioDue, ChainMaster, Milos, Universal Effects, ArtLighting, MobilTech, Lampo, Martin, Spotlight, Compulite, Eurolite и др. */
+
+  margin-top: 155px;
+  /* p.text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+
+  /* black */
+  color: #343434;
+}
+
+.mini_img {
+  width: 255px;
+  height: 250px;
+  padding: 90px 25px;
+}
+
+.footer_minimini_box {
+  display: flex;
+
+  width: 615px;
+  height: 334px;
+}
+
+.footer_right {
+  /* Rectangle */
+
+  box-sizing: border-box;
+
+  width: 665px;
+  height: 400px;
+  /* Accent */
+  border: 3px solid #005bc1;
+}
+
+.mini_right_box {
+  margin-top: 155px;
+}
+
+.mini_text {
+  /* p.small-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  /* black */
+  color: #343434;
+}
+.right_box_title {
+  /* Новое оборудование, предоставляемое в аренду: */
+
+  padding: 10px;
+  /* h4 */
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* black */
+  color: #343434;
+}
+
+.last_wrapper {
+  width: 1500px;
+  height: 363px;
+
+  margin: 200px auto;
+}
+
+.last_title_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.last_btn {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* white */
+  color: #ffffff;
+
+  width: 190px;
+  height: 51px;
+
+  /* Accent */
+  background: #005bc1;
+}
+
+.last_title {
+  /* Новости */
+
+  width: 119px;
+  height: 44px;
+  padding: 0 15px;
+  /* h2 */
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* black */
+  color: #343434;
+}
+
+.last_img {
+  width: 350px;
+  height: 280px;
+  padding: 25px 15px;
+}
+
+.mini_last_left_box {
+  display: flex;
+}
+.mini_title {
+  /* Семинар Milos */
+
+  margin-top: 50px;
+
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* black */
+  color: #343434;
+}
+
+.mini_text {
+  /* Наши сотрудники прошли последний семинар от компании Milos. Они получили новый объем знаний, который позволит нашей компании заниматься оборудованием не только мероприятий, но производственных помещений. */
+
+  /* p.small-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  /* black */
+
+  color: #343434;
+}
+
+.blok1 {
+  width: 225px;
+  height: 242px;
+}
+
+.last_glav_box {
+  display: flex;
+}
+
+.last_right_box {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 25px;
+  gap: 255px;
+}
+
+.blok_img {
+  width: 128px;
+  height: 115px;
+  top: 3109px;
+  left: 1005px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.blok_text {
+  /* 30 контрактов, тысячи восторженных посетителей... */
+
+  width: 225px;
+  height: 38px;
+
+  /* p.small-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 5px;
+  /* black */
+  color: #343434;
+}
+
+.blok_title {
+  /* Выставка Prolight+Sound NAMM Russia 2016 */
+  padding: 5px;
+
+  /* h4 */
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* black */
+  color: #343434;
+}
+
+.info {
+  /* Rectangle */
+
+  width: 100%;
+  height: 255px;
+
+  /* Accent */
+  background: #005bc1;
+}
+
+.info_wrapper {
+  width: 1110px;
+  height: 255px;
+
+  margin: 250px auto;
+}
+
+.info_number {
+  /* (812) 710-80-25 */
+
+  width: 122px;
+  height: 27px;
+  /* h4 */
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* white */
+  color: #ffffff;
+}
+
+.info_title_box {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.info_text {
+  /* 191180, Санкт-Петербург, Набережная реки Фонтанки, 90, корпус 1 */
+
+  /* p.top-menu */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+
+  /* white */
+  color: #ffffff;
+}
+
+.item_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 50px;
+}
+a {
+  /* О компании */
+
+  /* p.small-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* white */
+  color: #ffffff;
+}
+.info_line {
+  /* Line */
+
+  width: 1110px;
+  height: 0px;
+  margin-top: 25px;
+  /* white */
+  border: 1px solid #ffffff;
+}
+
+.info_last_text {
+  /* © 2019 ЗАО «Транслайт». Все права защищены. */
+
+  padding: 25px 15px;
+  /* p.small-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* white */
+  color: #ffffff;
+}
+
+.nav_blue_box {
+  /* Rectangle 3 */
+
+  position: absolute;
+  width: 444px;
+  height: 720px;
+  left: 405px;
+  top: 80px;
+  margin-left: 160px;
+  background: rgba(0, 91, 193, 0.6);
+}
+
+.nav_nav_box {
+  /* Rectangle */
+
+  position: absolute;
+  width: 100%;
+  margin-top: px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(0, 91, 193, 0.6);
+}
